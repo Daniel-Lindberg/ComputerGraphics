@@ -1,0 +1,42 @@
+Author: Daniel Lindberg
+
+To run the program, you can either:
+1) Perform a "make", then execute the binary via "./Homework3_Lindberg"
+2) do a simple "./run.sh"
+
+Homework took me most every single one of my evenings for the week, from previous sunday to following sunday. I work full time as an engineer.
+
+I had to look up how to use the vast majority of the functions
+in my code from khronos.org
+
+Pages like this: https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glTranslate.xml
+
+really helped me understand what the functions were performing.
+I also took some code from the professor's examples. 
+
+The lighting functions I asked for some help from the TA to get a starting point.
+
+I created my own textures.
+
+The lighting and camera position can be changed:
+
+  x_camera, y_camera, z_camera
+  Value     |   Up   | Down
+  --------------------------------
+  x_camera  |   q    |    a
+  y_camera  |   w    |    s
+  z_camera  |   e    |    d
+
+  light_pos[0,1,2]
+  Value         |   Up   | Down
+  --------------------------------
+  light_pos[0]  |   u    |    j
+  light_pos[1]  |   i    |    k
+  light_pos[2]  |   o    |    l
+
+  x_viewpoint, y_viewpoint
+  Value         |   Up           | Down
+  --------------------------------
+  x_viewpoint  |   Left arrow    |    Right arrow
+  y_viewpoint  |   Up arrow      |    Down Arrow
+ 

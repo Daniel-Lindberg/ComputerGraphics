@@ -1,0 +1,31 @@
+Author: Daniel Lindberg
+
+To run the program, you can either:
+1) Perform a "make", then execute the binary via "./Scene3D"
+2) do a simple "./run.sh"
+
+Homework took multiple nights: last sunday, monday, tuesday and wednesday , and vast majority of friday. Probably 20+ hours.
+
+I had to look up how to use the vast majority of the functions
+in my code from khronos.org
+
+I couldn't find any great code to generate a flower, so I looked at some sources online, and couldn't find any good objects in C, only C++ so I took some of them and then created my own.
+
+For generating the tubes, I used this one: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&ved=2ahUKEwj-wrO2xeriAhVPAqwKHfjiA4YQFjAEegQIARAB&url=https%3A%2F%2Fwww.opengl.org%2Farchives%2Fresources%2Fcode%2Fsamples%2Fredbook%2Ftorus.c&usg=AOvVaw3icr8b-leQmReARGah2xvx
+
+I generated the algorithm for the diamond and the banner.
+
+
+To go to the various views hit the button:
+-First person view: Left Button
+-Overhead perspective: Top Button
+-Overhead orthorgonoal: Right Button
+
+You can also use the following buttons to translate the scene:
+Value 		 |   Up   |	Down
+--------------------------------
+x_viewpoint  |   q    |    a
+y_viewpoint  |   w    |    s
+z_viewpoint  |   e    |    d
+
+

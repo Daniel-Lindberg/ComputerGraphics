@@ -1,0 +1,29 @@
+Author: Daniel Lindberg
+
+Here is my homework for the lorenz attractor.
+
+To run the program, you can either:
+1) Perform a "make", then execute the binary via "./Homework1_Lindberg"
+2) do a simple "./run.sh"
+
+Homework took me most of my evening on wednesday and thursday
+and a couple of hours on sunday.
+
+I had to look up how to use the vast majority of the functions
+in my code from khronos.org
+
+Pages like this: https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glTranslate.xml
+
+really helped me understand what the functions were performing.
+I also took some code from the professor's examples. 
+
+I believe I saw what compiler flags to take from the professor's make file, and I also looked at the imports 
+and the basic functions on how to use a GUI
+
+To move the GUI around, use the up, down left and right arrow keys
+
+To move the values of s, b and r , use the following table:
+	key|   Up   |	Down
+	s  |   q    |    a
+	b  |   w    |    s
+	r  |   e    |    d
